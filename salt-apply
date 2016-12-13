@@ -1,0 +1,3 @@
+#!/bin/bash
+# This is just a wrapper to help running salt inside the VM
+salt-call -c /vagrant/saltstack/etc/ --local state.apply

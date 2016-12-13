@@ -1,0 +1,11 @@
+file_client: local
+file_roots:
+  base:
+    - /vagrant/saltstack/salt
+    - /vagrant/saltstack/formulas/apache-formula
+    - /vagrant/saltstack/formulas/mysql-formula
+    - /vagrant/saltstack/formulas/php-formula
+    - /vagrant/saltstack/formulas/wordpress-formula
+pillar_roots:
+  base:
+    - /vagrant/saltstack/pillar
